@@ -3,8 +3,10 @@
 ###原代码片段：
 
 ```javascript
-this.settings.upload_url = SWFUpload.completeURL(this.settings.upload_url);this.settings.button_image_url = SWFUpload.completeURL(this.settings.button_image_url)//javascript
+this.settings.upload_url = SWFUpload.completeURL(this.settings.upload_url);this.settings.button_image_url = SWFUpload.completeURL(this.settings.button_image_url)
+```
 
 ###替换后的代码片段：
-
+```javascript
 this.settings.upload_url = SWFUpload.completeURL(this.settings.upload_url);this.settings.button_image_url = this.settings.button_image_url ? SWFUpload.completeURL(this.settings.button_image_url) : this.settings.button_image_url
+```
