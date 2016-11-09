@@ -2,7 +2,7 @@
 
 ###原代码片段：
 
-···javascript
+```javascript
 this.settings.upload_url = SWFUpload.completeURL(this.settings.upload_url);this.settings.button_image_url = SWFUpload.completeURL(this.settings.button_image_url)
 
 ###替换后的代码片段：
