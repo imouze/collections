@@ -1,2 +1,2 @@
 # collections
-collect some functions
+collect anything
